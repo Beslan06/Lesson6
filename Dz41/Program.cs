@@ -1,4 +1,4 @@
-﻿
+﻿Console.Clear();
 Console.Write($"Введи число М(количество чисел): ");
 int m = Convert.ToInt32(Console.ReadLine());
 int[] massiveNumbers = new int[m];
@@ -10,7 +10,6 @@ for (int i = 0; i < m; i++)
     massiveNumbers[i] = Convert.ToInt32(Console.ReadLine());
   }
 }
-
 
 int Comparison(int[] massiveNumbers)
 {
